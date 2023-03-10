@@ -1,0 +1,351 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input{
+  background-color: transparent !important;
+  
+}
+#main-nav{
+  /* transition: position 2s; */
+  background-color: #fff;
+}
+nav img{
+  width: 50px;
+  margin-right: 10px;
+}
+.navSection{
+  background-color: #144579;
+}
+.mainBg{
+  background-image: url(./imgs/mainBg.jpg);
+}
+.navbar .icons {
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-bottom: 10px; */
+}
+.navbar .icons span {
+  background-color: #adb5bd;
+  margin-bottom: 5px;
+  height: 3px;
+  width: 100px;
+}
+.navbar .links:hover ul{
+  display: block;
+}
+.navbar .icons span:first-child {
+  /* background-color: #fff; */
+}
+.navbar .links ul{
+  list-style: none;
+  margin: 0;
+  /* margin-top: 5px; */
+  padding: 0%;
+  background-color: #ebf6fe;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  border:#2699fb solid 2px;
+  display: none;
+  
+}
+.navbar .links ul li a{
+  color: #000;
+  padding: 5px 50px;
+  border:#2699fb solid 2px;
+}
+.navbar .links ul li:hover .navbar .links ul li{
+  /* color: #fff !important; */
+  background-color: #42a6fb;
+  cursor: pointer;
+}
+.footer{
+  background-color: #144579;
+}
+.footerLogo{
+  width: 25px;
+}
+.footerIcons i{
+  margin: 15px;
+  background-color: gray;
+  padding: 15px;
+}
+.footer .section3 img{
+  width: 80px;
+  margin: 5px;
+}
+.copyrightApp:hover{
+  border-bottom: 3px solid #fff;
+}
+
+
+.pinkHover:hover{
+  color: #ae2979;
+  cursor: pointer;
+}
+.blueHover:hover{
+  color: #42a6fb;
+}
+.homeSec1{
+  margin-top: 30px;
+  /* background: linear-gradient(to right, blue 60%, #fff 40%); */
+}
+
+.homeSec2{
+  margin-top: 30px;
+  /* background-image: linear-gradient(to left, url("./imgs/faqBg.jpg") 60%, #fff 40%); */
+
+}
+.doc2Img{
+  position: static;
+}
+
+/* .homeSec1{
+  margin-bottom: 300px;
+} */
+
+
+/* @media screen and (max-width: 720px){
+  .contactIcons{
+    width: 100%;
+  }
+} */
+
+.faqSection{
+  background-image: url("./imgs/faqBg.jpg");
+  /* background-size:auto; */
+  background-repeat:no-repeat;
+  /* -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover; */
+  background-size:cover;
+  background-position:center bottom;
+}
+
+
+.prevention h5{
+  border: #42a6fb solid 2px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  color: #42a6fb;
+  font-size: 20px;
+  font-weight: 650;
+  background-color: #e3ecf4;
+}
+.prevention h5:hover{
+  color: #fff;
+  background-color: #42a6fb;
+  cursor: pointer;
+}
+.prevention h5 , .doctors span{
+  border: #42a6fb solid 2px;
+  padding: 5px 8px;
+  border-radius: 3px;
+  color: #42a6fb;
+  font-size: 20px;
+  background-color: #e3ecf4;
+}
+.oneDoctor{
+  position: relative;
+}
+.doctors span:hover{
+  color: #fff;
+  background-color: #42a6fb;
+  cursor: pointer;
+}
+.docDetails{
+    border: #42a6fb solid 2px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    color: #42a6fb;
+    font-size: 20px;
+    background-color: #e3ecf4;
+    position: absolute;
+    left: 12%;
+    bottom: -40px;
+    /* transition: bottom 1s; */
+}
+.docDetails:hover{
+  color: #fff;
+  background-color: #42a6fb;
+  cursor: pointer;
+}
+.doctorsPos{
+    border: #42a6fb solid 2px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    color: #42a6fb;
+    font-size: 20px;
+    background-color: #e3ecf4;
+    position: absolute;
+    left: 12%;
+    bottom: -40px;
+    transition: bottom 1s;
+  }
+  .doctorsPos:hover{
+    color: #fff;
+    background-color: #42a6fb;
+    cursor: pointer;
+    bottom: -10px;
+}
+
+
+.homeHead{
+  background-color: #eceeee;
+}
+.homeEndSec{
+  background-image: url(./imgs/faqBg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.applayDocHead{
+  border: #42a6fb solid 2px;
+  padding: 35px 8px;
+  border-radius: 5px;
+  color: #42a6fb;
+  font-size: 20px;
+  background-color: #e3ecf4;
+  text-align: center;
+  margin: 30px 0;
+}
+.applayDocHead:hover{
+  color: #fff;
+  background-color: #42a6fb;
+  cursor: pointer;
+}
+.applayDocForm{
+  background-color: #e3f1f2;
+}
+
+.applayDocForm input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #42a6fb;
+  opacity: 1; /* Firefox */
+}
+
+.applayDocForm::-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #42a6fb;
+}
+
+.applayDocForm::-ms-input-placeholder { /* Microsoft Edge */
+  color: #42a6fb;
+}
+.historyDiv{
+  background-color: #eceeee;
+}
+.diaIcon{
+  background-color: #006ebe;
+  color: #fff;
+  /* border:5px; */
+  padding: 15px;
+  border-radius: 50%;
+}
+.disHidden{
+  display: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (max-width: 720px){
+  .mainBg{
+    background-position: 70%;
+  }
+  .footerSec{
+    margin-top: 15px;
+  }
+  .navIconsConnection{
+    margin-left: 0;
+  }
+  .formRegisterContainer{
+    width: 100%;
+  }
+  .width100InMax{
+    width: 100%;
+  }
+  .homeSec1{
+    background-color: #14457b;
+  }
+  .homeSec2{
+    background-color: #eceeee;
+  }
+/* a{
+  text-decoration: none;
+  border: none;
+} */
+.capitalLetter{
+  text-transform: capitalize;
+}
+.halfwidthForm{
+  width: 100%;
+}
+.containerApplayForm{
+  width: 100%;
+}
+.MoreBtnNav{
+  padding: 1;
+}
+}
+@media screen and (min-width: 720px){
+  .navIcons{
+    margin-left: 48px;
+  }
+  .pos1{
+    position: relative;
+    top: 120px;
+    right: 0;
+    float: right;
+  }
+  .disHidden{
+    display: inline;
+  }
+  .homeSec1{
+    margin-top: 30px;
+    background: linear-gradient(to right, #14457b 80%, #fff 20%);
+    /* margin-bottom: 300px; */
+  }
+  .homeSec2{
+    /* margin-top: 300px; */
+    background: linear-gradient(to left, #eceeee 80%, #fff 20%);
+  
+  }
+
+  /* .doc2Img{
+    position: relative;
+    width:400px;
+    top: 120px;
+    left: -420px;
+  } */
+
+  .containerOfDoc2Img{
+    width:50% !important;
+    position: relative;
+    width:400px;
+    top: 120px;
+    left: -420px;
+  }
+  .formRegisterContainer{
+    width: 75%;
+  }
+  .halfwidthForm{
+    width: 50%;
+}
+.containerApplayForm{
+  width: 75%;
+}
+.applayDocMarginRight{
+  margin-right: 5px;
+}
+.applayDocMarginLeft{
+  margin-left: 5px;
+}
+}
